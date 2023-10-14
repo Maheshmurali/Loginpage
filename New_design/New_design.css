@@ -1,0 +1,217 @@
+.body{
+    margin: 0px;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+    font-family: cursive;
+    
+}   
+.div_top{
+    
+    width: 100%;
+    height: 90px;
+    background: linear-gradient(15deg, rgb(236, 239, 236) 16%, rgb(211, 240, 220) 24%, rgb(17, 159, 60) 80%);
+    margin-top: -16px;
+    float: left;
+}
+.div_left{
+   
+    width: 55%;
+    height: 590px;
+    float: left; 
+}
+.div_right{
+   
+    width: 45%;
+    height: 590px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_bottom{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;  
+    backdrop-filter: blur(5px);
+    border: 1px solid #e4e4e3;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgba(187, 233, 119, 0.144);
+}
+.img_logo{
+    width: 12%;
+    height: 185%;
+    margin-block-start: -33px;
+    float: left;
+    margin-right: -43px;
+}
+.logo_para{
+   
+    float: left;
+    font-size: 26px;
+    font-family: cursive;
+    color: green;
+    text-decoration: none;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.menu_bar{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 0px 0px 0px;
+    padding: 35px 0px 0px 0px;
+    font-size: 18px;
+    font-family: cursive;
+    float: left;
+    
+    
+}
+.list{
+    margin-left: 96px;
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+}
+.list:hover{
+    color: brown ;
+}
+.p_search{
+    margin-top: 26px;
+    margin-left: 100px;
+    width: 180px;
+    height: 33px;
+    border-radius: 29px;
+    border-color: green;
+    border: 1px solid;
+    float: left;  
+    text-indent: 15px;
+}
+::placeholder{
+    font-size: 15px;
+    font-family: cursive;
+    text-indent: 16px; 
+     
+}
+.sub_menu{
+    display: none;
+}
+.list:hover.sub_menu{
+    display: block;
+    position: absolute;
+    background: green;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.p_second{
+    margin-top: -7px;
+    color: green;
+    font-size: 21px;
+    margin-left: 90px;
+}
+.para_logo{
+    width: 168px;
+    height: 116px;
+    padding-top: 70px;
+}
+.para_last{
+    width: 77px;
+    height: 69px;
+    margin-top: -25px;
+}
+.form{
+    width: 350px;
+    height: 397px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    border: 1px solid #72582c;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+.form h2{
+    color: green;
+    letter-spacing: 1px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+.login input,button{
+    margin: 20px;
+    padding: 15px 45px;
+    border: 5px;
+    outline: 2px;
+    border-radius: 60px;
+    font-size: 16px;
+}
+.login input{
+    background-color: #bff0b49e;
+    letter-spacing: 1px;
+    text-indent: 30px;
+    background-image: url(green\ user\ png.jpeg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+}
+.login input:nth-child(2){
+    background-image: url(green\ lock.png);
+
+}
+.login input::placeholder{
+    font-size: 16px;
+    text-indent: 30px; 
+}
+.login button{
+    background-color: rgb(54, 184, 54);
+    cursor: pointer;
+    color: #fff;
+}
+.login button:hover{
+    background-color: green;  
+    
+}
+.sugg{
+    width: 105%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    color: rgb(78, 85, 78);
+}
+.forgot{
+    cursor: pointer;
+    
+    
+}
+.forgot span,a{
+    text-decoration: none;
+    color: rgb(21, 157, 25);
+}
+.list_bottom{
+    text-align: center;
+    display: inline-flex;
+    color: #736f67;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+
+    
+}
+.list_bottom p a{
+    margin-inline: 78px;
+    color: #736f67;
+}
+.list_bottom p a:hover{
+    color: green;
+    text-decoration: none;
+}
+
+
+
+
+
